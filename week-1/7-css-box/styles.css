@@ -4,3 +4,15 @@
   border-radius: 4px;
   background: #fff;
 }
+
+.site-wrapper {
+  padding-bottom: 2rem;
+}
+
+.countries {
+  padding: 0.5rem;
+}
+
+.country {
+  margin: 0.5rem;
+}
