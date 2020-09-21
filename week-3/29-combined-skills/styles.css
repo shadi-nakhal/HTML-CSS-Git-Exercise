@@ -1,1 +1,33 @@
 /* Add your own CSS code below */
+
+#red-heart {
+  color: #c85308;
+}
+
+@media (min-width: 992px) {
+  .hero__title {
+    font-size: 4em;
+  }
+}
+
+.main-nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (min-width: 767px) {
+  .site-header {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+  }
+}
+
+.main-article {
+  max-width: 50em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2em;
+}
